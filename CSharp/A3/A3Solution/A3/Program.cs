@@ -211,6 +211,17 @@ namespace A3
             // of the console.writeLine
             #endregion
 
+
+            #region Q15
+            //What will be the output of the C# code given below?
+            ////int num = 1, z = 5;
+            ////if (!(num <= 0))
+            ////    Console.WriteLine(++num + z++ + " " + ++z); //This line will be executed 
+            ////else
+            ////    Console.WriteLine(--num + z-- + " " + --z);
+
+            //My answer would be  7 7 and after running the code, it was correct
+            #endregion
         }
     }
 }
