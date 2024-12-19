@@ -3,8 +3,16 @@ using System.Drawing;
 using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+
 namespace A3
 {
+    class Point
+    {
+        public int X;
+        public int Y;
+        
+    }
+
     internal class Program
     {
         static void Main(string[] args)
@@ -64,6 +72,33 @@ namespace A3
             //// Changing one of them won't affect the other 
             //Console.WriteLine($"X={X} and Y={Y}"); //X= 20 and Y=10;
             #endregion
+
+            #region Q6 Simply Refernce Value Assignment
+            // I Created a class called Point for trial
+            //Point P1 = new Point();
+            //P1.X = 5;
+            //P1.Y=10;
+            //Console.WriteLine($"Before assignment P1.X= {P1.X} and P1.Y={P1.Y}");
+
+            //Point P2=P1;
+            //Console.WriteLine($"After assignment P2.X={P2.X} and P2.Y= {P2.Y}");
+
+
+            //P2.X = 50;
+            //P2.Y= 100;
+
+            //Console.WriteLine("After Modifying P2");
+            //Console.WriteLine($"P2.X={P2.X} and P2.Y= {P2.Y}");
+            ////P1 is also affected becuase they both point at the same data in heap
+
+            //Console.WriteLine($"P1.X= {P1.X} and P1.Y={P1.Y}"); 
+            
+
+
+            #endregion
+
+
+
         }
     }
 }
