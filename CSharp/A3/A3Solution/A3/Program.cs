@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Net.NetworkInformation;
+using System;
 
 
 namespace A3
@@ -98,17 +99,38 @@ namespace A3
 
             #endregion
 
-            #region Write C# program that take two string variables and print them as one variable
-            Console.WriteLine("Please enter the first string");
-            string first = Console.ReadLine();
+            #region Q7 Write C# program that take two string variables and print them as one variable
+            //Console.WriteLine("Please enter the first string");
+            //string first = Console.ReadLine();
 
-            Console.WriteLine("Please enter the second string");
-            string second = Console.ReadLine();
+            //Console.WriteLine("Please enter the second string");
+            //string second = Console.ReadLine();
 
-            Console.WriteLine(string.Format("{0} {1}", first, second));
+            //Console.WriteLine(string.Format("{0} {1}", first, second));
 
             #endregion
 
+            #region Q8
+            //Write a program that calculates the simple interest given the principal amount,
+            //rate of interest, and time.The formula for simple interest is
+            //Interest = (principal * rate * time) / 100.
+
+            double simpleInterest;
+            int principal, rate, time;
+
+            Console.WriteLine("Please enter the following");
+            Console.Write("principal amount: ");
+            principal= int.Parse(Console.ReadLine());
+            Console.Write("rate: ");
+            rate = int.Parse(Console.ReadLine());
+            Console.Write("time: ");
+            time = int.Parse(Console.ReadLine());
+
+            simpleInterest = (principal * rate * time) / 100;
+
+            Console.WriteLine($"The simple interest is {simpleInterest}");
+
+            #endregion
 
         }
     }
