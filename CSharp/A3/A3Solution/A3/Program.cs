@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Net.NetworkInformation;
 
 
 namespace A3
@@ -92,11 +93,21 @@ namespace A3
             ////P1 is also affected becuase they both point at the same data in heap
 
             //Console.WriteLine($"P1.X= {P1.X} and P1.Y={P1.Y}"); 
-            
+
 
 
             #endregion
 
+            #region Write C# program that take two string variables and print them as one variable
+            Console.WriteLine("Please enter the first string");
+            string first = Console.ReadLine();
+
+            Console.WriteLine("Please enter the second string");
+            string second = Console.ReadLine();
+
+            Console.WriteLine(string.Format("{0} {1}", first, second));
+
+            #endregion
 
 
         }
