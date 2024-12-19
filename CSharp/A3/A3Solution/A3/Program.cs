@@ -4,6 +4,7 @@ using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Net.NetworkInformation;
 using System;
+using System.Diagnostics.Metrics;
 
 
 namespace A3
@@ -115,20 +116,38 @@ namespace A3
             //rate of interest, and time.The formula for simple interest is
             //Interest = (principal * rate * time) / 100.
 
-            double simpleInterest;
-            int principal, rate, time;
+            //double simpleInterest;
+            //int principal, rate, time;
 
-            Console.WriteLine("Please enter the following");
-            Console.Write("principal amount: ");
-            principal= int.Parse(Console.ReadLine());
-            Console.Write("rate: ");
-            rate = int.Parse(Console.ReadLine());
-            Console.Write("time: ");
-            time = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the following");
+            //Console.Write("principal amount: ");
+            //principal= int.Parse(Console.ReadLine());
+            //Console.Write("rate: ");
+            //rate = int.Parse(Console.ReadLine());
+            //Console.Write("time: ");
+            //time = int.Parse(Console.ReadLine());
 
-            simpleInterest = (principal * rate * time) / 100;
+            //simpleInterest = (principal * rate * time) / 100;
 
-            Console.WriteLine($"The simple interest is {simpleInterest}");
+            //Console.WriteLine($"The simple interest is {simpleInterest}");
+
+            #endregion
+
+            #region Q9
+            //- Write a program that calculates the Body Mass Index (BMI)given a person's weight
+            //in kilograms and heightin meters.The formula for BMI is
+            //BMI = (Weight) / (Height * Height)
+
+            Console.Write("Please enter your weight: ");
+            int weight = int.Parse(Console.ReadLine());
+
+            Console.Write("Please enter your heightt: ");
+            int height = int.Parse(Console.ReadLine());
+
+            double BMI = (weight) / (height * height);
+
+            Console.WriteLine($"BMI = {BMI}");
+
 
             #endregion
 
