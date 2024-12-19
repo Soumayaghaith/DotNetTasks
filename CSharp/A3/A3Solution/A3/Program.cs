@@ -5,6 +5,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Net.NetworkInformation;
 using System;
 using System.Diagnostics.Metrics;
+using System.ComponentModel;
+using System.Reflection.Metadata;
 
 
 namespace A3
@@ -138,17 +140,28 @@ namespace A3
             //in kilograms and heightin meters.The formula for BMI is
             //BMI = (Weight) / (Height * Height)
 
-            Console.Write("Please enter your weight: ");
-            int weight = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter your weight: ");
+            //int weight = int.Parse(Console.ReadLine());
 
-            Console.Write("Please enter your heightt: ");
-            int height = int.Parse(Console.ReadLine());
+            //Console.Write("Please enter your heightt: ");
+            //int height = int.Parse(Console.ReadLine());
 
-            double BMI = (weight) / (height * height);
+            //double BMI = (weight) / (height * height);
 
-            Console.WriteLine($"BMI = {BMI}");
+            //Console.WriteLine($"BMI = {BMI}");
 
 
+            #endregion
+
+            #region Q10
+            //Write a program that uses the ternary operator to check if the temperature is too hot,
+            //too cold, or just good.Assign the result in a variable then display the result.
+            //Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything
+            //else is "Just Good".
+            //Console.WriteLine("Please enter the temprature degree");
+            //int degree = int.Parse(Console.ReadLine());
+            //string result = (degree < 10) ? "just cold" :(degree>30)? "Just Hot" : "Just Good";
+            //Console.WriteLine(result);
             #endregion
 
         }
