@@ -35,11 +35,25 @@ namespace A3
             #endregion
 
             #region Q3 Write C# program that Perform a simple arithmetic operation with floating - point numbers
-            double num1=2.5, num2 = 10.5;
-            Console.WriteLine(num1+num2);
+            //double num1=2.5, num2 = 10.5;
+            //Console.WriteLine(num1+num2);
             //I actually don't know what is the point of this question =)
             #endregion
 
+            #region Q4 Write C# program that Extract a substring from a given string.
+            //This is a nice one
+            Console.WriteLine("Please enter the original string");
+            string OriginalString = Console.ReadLine();
+
+            Console.WriteLine("Please enter the start index of the substring");
+            int StartIndex = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter the length of the substring");
+            int Length = int.Parse(Console.ReadLine());
+
+            string SubString = OriginalString.Substring(StartIndex, Length);
+            Console.WriteLine(SubString);
+            #endregion
         }
     }
 }
