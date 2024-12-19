@@ -1,4 +1,7 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using static System.Collections.Specialized.BitVector32;
+using System.Drawing;
+using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace A3
 {
@@ -14,7 +17,7 @@ namespace A3
             #endregion
 
             #region Q2 - Write C# program that converts a string to an integer, but the string contains non - numericcharacters.
-            
+
             //string stringTrial = "This is a Non numeric string";
 
             //Using the convert class will throw an exception
@@ -30,6 +33,13 @@ namespace A3
             //int.TryParse(stringTrial,out num);
             //Console.WriteLine(num);
             #endregion
+
+            #region Q3 Write C# program that Perform a simple arithmetic operation with floating - point numbers
+            double num1=2.5, num2 = 10.5;
+            Console.WriteLine(num1+num2);
+            //I actually don't know what is the point of this question =)
+            #endregion
+
         }
     }
 }
