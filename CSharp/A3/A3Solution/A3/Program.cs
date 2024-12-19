@@ -12,6 +12,24 @@ namespace A3
             //num =Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine(num);
             #endregion
+
+            #region Q2 - Write C# program that converts a string to an integer, but the string contains non - numericcharacters.
+            
+            //string stringTrial = "This is a Non numeric string";
+
+            //Using the convert class will throw an exception
+            //int num =Convert.ToInt32(stringTrial);
+            //Console.WriteLine(num);
+
+            //Using the parse method will throw an exception
+            //int num = int.Parse(stringTrial);
+            //Console.WriteLine(num);
+
+            //Using the TryParse method will print the defualt value
+            //int num;
+            //int.TryParse(stringTrial,out num);
+            //Console.WriteLine(num);
+            #endregion
         }
     }
 }
