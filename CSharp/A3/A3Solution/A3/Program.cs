@@ -205,10 +205,8 @@ namespace A3
             #region Q14
             //Which of the following is the correct output for the C# code given below?
             //Console.WriteLine(13 / 2 + " " + 13 % 2);
-            //My answer would be 6.5 1 and it was wrong 
-            //The correct answer was 6 1
-            //I don't know why the fraction was dropped, I think it is sth about the implemnetation 
-            // of the console.writeLine
+            //My answer would be 6 1 
+            
             #endregion
 
 
