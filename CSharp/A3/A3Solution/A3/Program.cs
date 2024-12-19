@@ -164,6 +164,26 @@ namespace A3
             //Console.WriteLine(result);
             #endregion
 
+            #region Q11
+            //Write a program that takes the date from the user and displays
+            //it in various formats using string interpolation.
+            //Ex :
+            //Today’s date : 20 , 11 , 2001
+            //Today's date : 20 / 11 / 2001
+            //Today's date : 20 – 11 – 2001
+            //Console.WriteLine("Please enter today's dtae (in numbers)");
+            //Console.Write("Day: ");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.Write("month: ");
+            //int month = int.Parse(Console.ReadLine()); ;
+            //Console.Write("year: ");
+            //int year = int.Parse(Console.ReadLine()); ;
+            //Console.WriteLine($"Today's date is {day} , {month} , {year}");
+            //Console.WriteLine($"Today's date is {day} / {month} / {year}");
+            //Console.WriteLine($"Today's date is {day} - {month} - {year}");
+
+            #endregion
+
         }
     }
 }
