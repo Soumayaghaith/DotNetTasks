@@ -192,6 +192,17 @@ namespace A3
             //My answer would be 06/14/2024 and after running the code it was coorect 
 
             #endregion
+
+            #region Q13
+            //Which of the following statements is correct about the C#.NET code snippet given below?
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
+            //Console.WriteLine(d);
+
+            // My answer woul be 1 and after running the code it was correct
+            #endregion
+
+
         }
     }
 }
