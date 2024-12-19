@@ -42,17 +42,27 @@ namespace A3
 
             #region Q4 Write C# program that Extract a substring from a given string.
             //This is a nice one
-            Console.WriteLine("Please enter the original string");
-            string OriginalString = Console.ReadLine();
+            //Console.WriteLine("Please enter the original string");
+            //string OriginalString = Console.ReadLine();
 
-            Console.WriteLine("Please enter the start index of the substring");
-            int StartIndex = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the start index of the substring");
+            //int StartIndex = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter the length of the substring");
-            int Length = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter the length of the substring");
+            //int Length = int.Parse(Console.ReadLine());
 
-            string SubString = OriginalString.Substring(StartIndex, Length);
-            Console.WriteLine(SubString);
+            //string SubString = OriginalString.Substring(StartIndex, Length);
+            //Console.WriteLine(SubString);
+            #endregion
+
+            #region Q5 Write C# program that Assigning one value type variable to another and modifying the value of one variable 
+            //int X = 10;
+            //int Y = X;
+
+            //X =20 ; //The value will be assigned succesfully 
+            ////A copy of the value will be created and the two varibles are indpendant of each other
+            //// Changing one of them won't affect the other 
+            //Console.WriteLine($"X={X} and Y={Y}"); //X= 20 and Y=10;
             #endregion
         }
     }
