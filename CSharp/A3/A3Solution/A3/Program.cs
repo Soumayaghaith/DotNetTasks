@@ -184,6 +184,14 @@ namespace A3
 
             #endregion
 
+            #region Q12
+            //What is the output of the following C# code?
+            //DateTime date = new DateTime(2024, 6, 14);
+            //Console.WriteLine($"The event is on {date:MM/dd/yyyy}");
+
+            //My answer would be 06/14/2024 and after running the code it was coorect 
+
+            #endregion
         }
     }
 }
