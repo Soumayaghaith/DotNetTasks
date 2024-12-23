@@ -1,6 +1,7 @@
 ﻿using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace A4
 {
@@ -104,17 +105,31 @@ namespace A4
             #region Q5
             //- Write a program that takes character from the user then if it is a
             //vowel chars(a, e, I, o, u) then print(vowel) otherwise print(consonant).
-            Console.WriteLine("please enter a character");
-            char.TryParse(Console.ReadLine(), out char chara);
+            //Console.WriteLine("please enter a character");
+            //char.TryParse(Console.ReadLine(), out char chara);
 
-            if ((chara >= 'a' && chara <= 'z') || (chara >= 'A' && chara <= 'Z'))
+            //if ((chara >= 'a' && chara <= 'z') || (chara >= 'A' && chara <= 'Z'))
+            //{
+            //    Console.WriteLine("Vowel");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("consonant");
+            //}
+            #endregion
+
+            #region Q6
+            // Write a program that allows the user to insert an integer then print
+            //all numbers between 1 to that number.
+
+            Console.WriteLine("Please enter a number");
+            int.TryParse(Console.ReadLine(), out int num);
+
+            for (int i=1; i<=num; i++)
             {
-                Console.WriteLine("Vowel");
+                Console.WriteLine(i);
             }
-            else
-            {
-                Console.WriteLine("consonant");
-            }
+
             #endregion
         }
     }
