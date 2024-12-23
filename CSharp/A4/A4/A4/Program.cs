@@ -2,6 +2,7 @@
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -352,32 +353,57 @@ namespace A4
             #region Q17
             //17- Create a program that asks the user to input three points (x1, y1),
             //(x2, y2), and(x3, y3), and determines whether these points lie on a single straight line
-            Console.WriteLine("Please enter the X1 and Y1");
-            int.TryParse(Console.ReadLine(),out int X1);
-            int.TryParse(Console.ReadLine(), out int Y1);
-            
+            //Console.WriteLine("Please enter the X1 and Y1");
+            //int.TryParse(Console.ReadLine(),out int X1);
+            //int.TryParse(Console.ReadLine(), out int Y1);
 
-            Console.WriteLine("Please enter the X2 and Y2");
-            int.TryParse(Console.ReadLine(), out int X2);
-            int.TryParse(Console.ReadLine(), out int Y2);
-            
 
-            Console.WriteLine("Please enter the X3 and Y3");
-            int.TryParse(Console.ReadLine(), out int X3);
-            int.TryParse(Console.ReadLine(), out int Y3);
+            //Console.WriteLine("Please enter the X2 and Y2");
+            //int.TryParse(Console.ReadLine(), out int X2);
+            //int.TryParse(Console.ReadLine(), out int Y2);
 
-            //This (((X1 == X2) && (X2 == X3)) || ((Y1 == Y2) && (Y2 == Y3)))
-            //works out as long as we are dealing with vertical or horizontal lines
-            //so to be more generic it is better to use the slope equation
-            if ( ((Y2-Y1)*(X3-X1)) == ((Y3-Y1)*(X2-X1))    )
+
+            //Console.WriteLine("Please enter the X3 and Y3");
+            //int.TryParse(Console.ReadLine(), out int X3);
+            //int.TryParse(Console.ReadLine(), out int Y3);
+
+            ////This (((X1 == X2) && (X2 == X3)) || ((Y1 == Y2) && (Y2 == Y3)))
+            ////works out as long as we are dealing with vertical or horizontal lines
+            ////so to be more generic it is better to use the slope equation
+            //if ( ((Y2-Y1)*(X3-X1)) == ((Y3-Y1)*(X2-X1))    )
+            //{
+            //    Console.WriteLine("these points lie on a single straight line");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("these points don't lie on a single straight line");
+            //}    
+
+            #endregion
+
+            #region Q18
+            //Within a company, the efficiency of workers is evaluated based on the
+            //duration required to complete a specific task.A worker's efficiency level
+           
+            Console.WriteLine("Please enter your required duration to complete a task");
+            int.TryParse(Console.ReadLine(), out int Dur);
+            if (Dur >= 2 && Dur < 3)
             {
-                Console.WriteLine("these points lie on a single straight line");
+                Console.WriteLine("Highly efficient");
+            }
+            else if (Dur >= 3 && Dur < 4)
+            {
+                Console.WriteLine("Please try to increase your speed");
+            }
+            else if (Dur >= 4 && Dur < 5)
+            {
+                Console.WriteLine("You will be provided with training to enhance your speed");
             }
             else
             {
-                Console.WriteLine("these points don't lie on a single straight line");
-            }    
-            
+                Console.WriteLine("you are fired! ");
+            }
+
             #endregion
         }
     }
