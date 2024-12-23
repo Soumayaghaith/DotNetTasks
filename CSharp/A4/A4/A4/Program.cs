@@ -159,10 +159,26 @@ namespace A4
             //    {
             //        Console.WriteLine(i);
             //    }
-                
+
             //}
 
 
+            #endregion
+
+            #region Q9
+            //Write a program that takes two integers then prints the power.
+            //Console.WriteLine("Please enter the base number");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //Console.WriteLine("Please enter its power");
+            //int.TryParse(Console.ReadLine(), out int pow);
+
+            //int result =1;
+            //for (int i = 1; i <= pow; i++)
+            //{
+            //    result *= num;
+            //}
+            //Console.WriteLine($"{num}^{pow}= {result}");
             #endregion
         }
     }
