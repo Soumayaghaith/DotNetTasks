@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
@@ -287,15 +288,45 @@ namespace A4
 
             #region Q14
             //Write a program to allow the user to enter int and print the REVERSED of it.
-            Console.WriteLine("Please enter an integer to reverse it");
-            int.TryParse(Console.ReadLine(),out int num);
-            int reversedInt=0;
-            while (num> 0)
+            //Console.WriteLine("Please enter an integer to reverse it");
+            //int.TryParse(Console.ReadLine(),out int num);
+            //int reversedInt=0;
+            //while (num> 0)
+            //{
+            //    reversedInt= reversedInt*10 + num%10;
+            //    num /= 10;
+            //}
+            //Console.WriteLine(reversedInt);
+            #endregion
+
+            #region Q15
+            //- Write a program in C# Sharp to find prime numbers within a range of numbers.
+            Console.Write("Please enter the starting number: ");
+            int.TryParse(Console.ReadLine(), out int num1);
+
+            Console.Write("Please enter the ending number: ");
+            int.TryParse(Console.ReadLine(), out int num2);
+
+            int flag ;
+            Console.WriteLine($"Prime numbers between {num1} and {num2} are :");
+            for (int i= num1; i<=num2; i++)
             {
-                reversedInt= reversedInt*10 + num%10;
-                num /= 10;
+                flag = 1;
+                for (int j=2;j<i/2; j++ )
+                {
+                    if (i%j==0 && i!=j)
+                    {
+                        flag = 0;
+                        break;
+                    }
+                
+                }
+                if (flag == 1 && i!= 1)
+                {
+                    Console.WriteLine(i);
+                }
+                
             }
-            Console.WriteLine(reversedInt);
             #endregion
         }
     }
