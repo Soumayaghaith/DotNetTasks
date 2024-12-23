@@ -274,6 +274,13 @@ namespace A4
             //        break;
             //}
             #endregion
+
+            #region Q13
+            //Write a program to allow the user to enter a string and print the REVERSE of it.
+            Console.WriteLine("Please enter a string to reverse it");
+            string text = Console.ReadLine();
+            Console.WriteLine(text.Reverse().ToArray());
+            #endregion
         }
     }
 }
