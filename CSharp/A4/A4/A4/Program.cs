@@ -385,7 +385,7 @@ namespace A4
             #region Q18
             //Within a company, the efficiency of workers is evaluated based on the
             //duration required to complete a specific task.A worker's efficiency level
-           
+
             //Console.WriteLine("Please enter your required duration to complete a task");
             //int.TryParse(Console.ReadLine(), out int Dur);
             //if (Dur >= 2 && Dur < 3)
@@ -410,24 +410,37 @@ namespace A4
             #region Q19
             //19- . Write a program that prints an identity matrix using for loop, in
             //other words takes a value n from the user and shows the identity table of size n* n.
-            Console.Write("Please enter n: ");
-            int.TryParse(Console.ReadLine(), out int n);
-            for (int i =1; i<= n; i++)
-            {
-                for (int j = 1; j <= n; j++)
-                {
-                    if (i == j)
-                    {
-                        Console.Write($" 1");
-                    }
-                    else
-                    {
-                        Console.Write($" 0");
-                    }
-                }
-                Console.WriteLine();
-            }
+            //Console.Write("Please enter n: ");
+            //int.TryParse(Console.ReadLine(), out int n);
+            //for (int i =1; i<= n; i++)
+            //{
+            //    for (int j = 1; j <= n; j++)
+            //    {
+            //        if (i == j)
+            //        {
+            //            Console.Write($" 1");
+            //        }
+            //        else
+            //        {
+            //            Console.Write($" 0");
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //}
             #endregion
+
+            #region Q20
+            //Write a program in C# to find the sum of all elements of the array.
+            //int[] arr = { 1, 2, 3 };
+            //int sum = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    sum += arr[i];
+            //}
+            //Console.WriteLine(sum);
+            #endregion
+
+
         }
     }
 }
