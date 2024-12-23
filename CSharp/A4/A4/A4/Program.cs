@@ -136,13 +136,32 @@ namespace A4
             //Write a program that allows the user to insert an integer then
             //print a multiplication table up to 12.
 
-            Console.WriteLine("Please enter a number");
-            int.TryParse(Console.ReadLine(), out int num);
+            //Console.WriteLine("Please enter a number");
+            //int.TryParse(Console.ReadLine(), out int num);
 
-            for (int i=1; i<=12; i++)
-            {
-                Console.WriteLine($"{num}*{i}={num*i}");
-            }
+            //for (int i=1; i<=12; i++)
+            //{
+            //    Console.WriteLine($"{num}*{i}={num*i}");
+            //}
+
+            #endregion
+
+            #region Q8
+            //Write a program that allows to user to insert number then print all
+            //even numbers between 1 to this number
+            //Console.WriteLine("Please enter a number");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //Console.WriteLine($"The even numbers between 1 and {num} are");
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    if (i%2==0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+                
+            //}
+
 
             #endregion
         }
