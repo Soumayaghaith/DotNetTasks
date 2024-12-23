@@ -7,6 +7,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace A4
 {
+  
     internal class Program
     {
         static void Main(string[] args)
@@ -331,21 +332,52 @@ namespace A4
 
             #region Q16
             //Write a program in C# Sharp to convert a decimal number into binary
-            Console.Write("Enter a number to convert: ");
-            int.TryParse(Console.ReadLine(), out int num);
-            int binNum = 0b0;
-            int bitPos = 0;
-            while (num > 0)
+            //Console.Write("Enter a number to convert: ");
+            //int.TryParse(Console.ReadLine(), out int num);
+            //int binNum = 0b0;
+            //int bitPos = 0;
+            //while (num > 0)
+            //{
+            //    if (num % 2 == 1)
+            //    {
+            //        binNum |= (1<<bitPos);
+            //    }
+
+            //    bitPos++;
+            //    num /= 2;
+            //}
+            //Console.WriteLine(Convert.ToString(binNum,2));
+            #endregion
+
+            #region Q17
+            //17- Create a program that asks the user to input three points (x1, y1),
+            //(x2, y2), and(x3, y3), and determines whether these points lie on a single straight line
+            Console.WriteLine("Please enter the X1 and Y1");
+            int.TryParse(Console.ReadLine(),out int X1);
+            int.TryParse(Console.ReadLine(), out int Y1);
+            
+
+            Console.WriteLine("Please enter the X2 and Y2");
+            int.TryParse(Console.ReadLine(), out int X2);
+            int.TryParse(Console.ReadLine(), out int Y2);
+            
+
+            Console.WriteLine("Please enter the X3 and Y3");
+            int.TryParse(Console.ReadLine(), out int X3);
+            int.TryParse(Console.ReadLine(), out int Y3);
+
+            //This (((X1 == X2) && (X2 == X3)) || ((Y1 == Y2) && (Y2 == Y3)))
+            //works out as long as we are dealing with vertical or horizontal lines
+            //so to be more generic it is better to use the slope equation
+            if ( ((Y2-Y1)*(X3-X1)) == ((Y3-Y1)*(X2-X1))    )
             {
-                if (num % 2 == 1)
-                {
-                    binNum |= (1<<bitPos);
-                }
-                
-                bitPos++;
-                num /= 2;
+                Console.WriteLine("these points lie on a single straight line");
             }
-            Console.WriteLine(Convert.ToString(binNum,2));
+            else
+            {
+                Console.WriteLine("these points don't lie on a single straight line");
+            }    
+            
             #endregion
         }
     }
