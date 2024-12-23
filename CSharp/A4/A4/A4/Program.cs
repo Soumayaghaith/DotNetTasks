@@ -229,13 +229,52 @@ namespace A4
             //        Console.WriteLine("30 days");
             //        break;
 
-                
+
             //    case 2:
             //        Console.WriteLine("28 or 29 days");
             //        break;
-            }
+            //}
+            #endregion
 
+            #region Q12
+            //Write a program to create a Simple Calculator
+            //Console.WriteLine("Please enter two operands");
+            //int.TryParse(Console.ReadLine(), out int num1);
+            //int.TryParse(Console.ReadLine(), out int num2);
+            //Console.WriteLine("Please enter the opertor between them + - * /");
+            //char.TryParse(Console.ReadLine(), out char op);
+
+
+            //switch (op)
+            //{
+            //    default:
+            //        Console.WriteLine("This is not a valid operator");
+            //        break;
+            //    case '+':
+            //        Console.WriteLine($"{num1}+ {num2} = {num1+ num2}");
+            //        break;
+            //    case '-':
+            //        if (num1 > num2)
+            //        {
+            //            Console.WriteLine($"{num1}- {num2} = {num1 - num2}");
+            //        }
+            //        else 
+            //        {
+            //            Console.WriteLine($"{num2} - {num1} = {num2 - num1}");
+            //        }
+            //        break;
+            //    case '*':
+            //        Console.WriteLine($"{num1}* {num2} = {num1 * num2}");
+            //        break;
+            //    case '/':
+            //        if (num2 != 0)
+            //        {
+            //            Console.WriteLine($"{num1}/ {num2} = {num1 / num2}");
+            //        }
+            //        break;
+            //}
             #endregion
         }
     }
 }
+
