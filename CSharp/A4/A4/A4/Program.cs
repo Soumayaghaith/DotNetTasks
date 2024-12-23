@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System;
+using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -277,9 +278,24 @@ namespace A4
 
             #region Q13
             //Write a program to allow the user to enter a string and print the REVERSE of it.
-            Console.WriteLine("Please enter a string to reverse it");
-            string text = Console.ReadLine();
-            Console.WriteLine(text.Reverse().ToArray());
+            //Console.WriteLine("Please enter a string to reverse it");
+            //string text = Console.ReadLine();
+            //Console.WriteLine(text.Reverse().ToArray());
+            //text.Reverse(): This reverses the characters in the string and returns an IEnumerable<char>.
+            //ToArray(): Converts the reversed IEnumerable<char> into a character array.
+            #endregion
+
+            #region Q14
+            //Write a program to allow the user to enter int and print the REVERSED of it.
+            Console.WriteLine("Please enter an integer to reverse it");
+            int.TryParse(Console.ReadLine(),out int num);
+            int reversedInt=0;
+            while (num> 0)
+            {
+                reversedInt= reversedInt*10 + num%10;
+                num /= 10;
+            }
+            Console.WriteLine(reversedInt);
             #endregion
         }
     }
