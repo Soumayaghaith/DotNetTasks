@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Reflection.Metadata;
+using System.Security.Cryptography;
 using System.Xml.Linq;
 
 namespace A4
@@ -88,15 +89,31 @@ namespace A4
             #region Q4
             //Write a program that allows the user to insert an integer number then
             //check If a number is even or odd.
-            Console.Write("Please enter a number: ");
-            int.TryParse(Console.ReadLine(), out int num);
-            if (num % 2 == 0)
+            //Console.Write("Please enter a number: ");
+            //int.TryParse(Console.ReadLine(), out int num);
+            //if (num % 2 == 0)
+            //{
+            //    Console.WriteLine("Even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("odd");
+            //}
+            #endregion
+
+            #region Q5
+            //- Write a program that takes character from the user then if it is a
+            //vowel chars(a, e, I, o, u) then print(vowel) otherwise print(consonant).
+            Console.WriteLine("please enter a character");
+            char.TryParse(Console.ReadLine(), out char chara);
+
+            if ((chara >= 'a' && chara <= 'z') || (chara >= 'A' && chara <= 'Z'))
             {
-                Console.WriteLine("Even");
+                Console.WriteLine("Vowel");
             }
             else
             {
-                Console.WriteLine("odd");
+                Console.WriteLine("consonant");
             }
             #endregion
         }
