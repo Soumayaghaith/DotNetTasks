@@ -301,32 +301,51 @@ namespace A4
 
             #region Q15
             //- Write a program in C# Sharp to find prime numbers within a range of numbers.
-            Console.Write("Please enter the starting number: ");
-            int.TryParse(Console.ReadLine(), out int num1);
+            //Console.Write("Please enter the starting number: ");
+            //int.TryParse(Console.ReadLine(), out int num1);
 
-            Console.Write("Please enter the ending number: ");
-            int.TryParse(Console.ReadLine(), out int num2);
+            //Console.Write("Please enter the ending number: ");
+            //int.TryParse(Console.ReadLine(), out int num2);
 
-            int flag ;
-            Console.WriteLine($"Prime numbers between {num1} and {num2} are :");
-            for (int i= num1; i<=num2; i++)
+            //int flag ;
+            //Console.WriteLine($"Prime numbers between {num1} and {num2} are :");
+            //for (int i= num1; i<=num2; i++)
+            //{
+            //    flag = 1;
+            //    for (int j=2;j<i/2; j++ )
+            //    {
+            //        if (i%j==0 && i!=j)
+            //        {
+            //            flag = 0;
+            //            break;
+            //        }
+
+            //    }
+            //    if (flag == 1 && i!= 1)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //}
+            #endregion
+
+            #region Q16
+            //Write a program in C# Sharp to convert a decimal number into binary
+            Console.Write("Enter a number to convert: ");
+            int.TryParse(Console.ReadLine(), out int num);
+            int binNum = 0b0;
+            int bitPos = 0;
+            while (num > 0)
             {
-                flag = 1;
-                for (int j=2;j<i/2; j++ )
+                if (num % 2 == 1)
                 {
-                    if (i%j==0 && i!=j)
-                    {
-                        flag = 0;
-                        break;
-                    }
-                
-                }
-                if (flag == 1 && i!= 1)
-                {
-                    Console.WriteLine(i);
+                    binNum |= (1<<bitPos);
                 }
                 
+                bitPos++;
+                num /= 2;
             }
+            Console.WriteLine(Convert.ToString(binNum,2));
             #endregion
         }
     }
