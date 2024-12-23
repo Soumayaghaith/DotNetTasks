@@ -2,6 +2,7 @@
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
+using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -385,25 +386,47 @@ namespace A4
             //Within a company, the efficiency of workers is evaluated based on the
             //duration required to complete a specific task.A worker's efficiency level
            
-            Console.WriteLine("Please enter your required duration to complete a task");
-            int.TryParse(Console.ReadLine(), out int Dur);
-            if (Dur >= 2 && Dur < 3)
-            {
-                Console.WriteLine("Highly efficient");
-            }
-            else if (Dur >= 3 && Dur < 4)
-            {
-                Console.WriteLine("Please try to increase your speed");
-            }
-            else if (Dur >= 4 && Dur < 5)
-            {
-                Console.WriteLine("You will be provided with training to enhance your speed");
-            }
-            else
-            {
-                Console.WriteLine("you are fired! ");
-            }
+            //Console.WriteLine("Please enter your required duration to complete a task");
+            //int.TryParse(Console.ReadLine(), out int Dur);
+            //if (Dur >= 2 && Dur < 3)
+            //{
+            //    Console.WriteLine("Highly efficient");
+            //}
+            //else if (Dur >= 3 && Dur < 4)
+            //{
+            //    Console.WriteLine("Please try to increase your speed");
+            //}
+            //else if (Dur >= 4 && Dur < 5)
+            //{
+            //    Console.WriteLine("You will be provided with training to enhance your speed");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("you are fired! ");
+            //}
 
+            #endregion
+
+            #region Q19
+            //19- . Write a program that prints an identity matrix using for loop, in
+            //other words takes a value n from the user and shows the identity table of size n* n.
+            Console.Write("Please enter n: ");
+            int.TryParse(Console.ReadLine(), out int n);
+            for (int i =1; i<= n; i++)
+            {
+                for (int j = 1; j <= n; j++)
+                {
+                    if (i == j)
+                    {
+                        Console.Write($" 1");
+                    }
+                    else
+                    {
+                        Console.Write($" 0");
+                    }
+                }
+                Console.WriteLine();
+            }
             #endregion
         }
     }
