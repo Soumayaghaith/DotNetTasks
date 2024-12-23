@@ -185,20 +185,55 @@ namespace A4
             //Write a program to enter marks of five subjects and calculate total,
             //average and percentage.
 
-            Console.Write("Please enter the marks of 5 subjects: ");
-            float.TryParse(Console.ReadLine(), out float mark1);
-            float.TryParse(Console.ReadLine(), out float mark2);
-            float.TryParse(Console.ReadLine(), out float mark3);
-            float.TryParse(Console.ReadLine(), out float mark4);
-            float.TryParse(Console.ReadLine(), out float mark5);
+            //Console.Write("Please enter the marks of 5 subjects: ");
+            //float.TryParse(Console.ReadLine(), out float mark1);
+            //float.TryParse(Console.ReadLine(), out float mark2);
+            //float.TryParse(Console.ReadLine(), out float mark3);
+            //float.TryParse(Console.ReadLine(), out float mark4);
+            //float.TryParse(Console.ReadLine(), out float mark5);
 
-            float sum = mark1 + mark2 + mark3 + mark4 + mark5;
-            Console.WriteLine($"Total:{sum}");
-            Console.WriteLine($"Average:{sum/5}");
-            Console.WriteLine($"Percentage:{(sum/500)*100}");
+            //float sum = mark1 + mark2 + mark3 + mark4 + mark5;
+            //Console.WriteLine($"Total:{sum}");
+            //Console.WriteLine($"Average:{sum/5}");
+            //Console.WriteLine($"Percentage:{(sum/500)*100}");
 
 
 
+
+            #endregion
+
+            #region Q11
+            //Write a program to input the month number and print the number of days
+            //in that month.
+            //Console.Write("Please enter a month number: ");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //switch (num)
+            //{
+            //    default:
+            //        Console.WriteLine("This is not a valid month number");
+            //        break;
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("31 days");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("30 days");
+            //        break;
+
+                
+            //    case 2:
+            //        Console.WriteLine("28 or 29 days");
+            //        break;
+            }
 
             #endregion
         }
