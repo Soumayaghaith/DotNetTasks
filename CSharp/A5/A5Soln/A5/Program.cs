@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace A5
 {
@@ -65,6 +66,18 @@ namespace A5
             //Console.WriteLine($"{n1}+{n2}={sum}");
             //Console.WriteLine($"{n3}-{n4}={sub}");
             #endregion
+
+            #region Q4
+            //Write a program in C# Sharp to create a function to calculate the sum of
+            //the individual digits of a given number.
+            //Console.WriteLine("Please enter a number to calculate its digits");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //int digSum= SumDigits(num);
+
+            //Console.WriteLine($"The sum of digits in {num} is {digSum}");
+
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -94,6 +107,17 @@ namespace A5
             int sum = n1 + n2;
             int sub = n3 - n4;
             return (sum, sub);
+        }
+
+        static int SumDigits(int num)
+        {
+            int sum = 0;
+            while (num > 0)
+            {
+                sum += num % 10;
+                num /= 10;
+            }
+            return sum;
         }
     }
 }
