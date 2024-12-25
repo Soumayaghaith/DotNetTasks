@@ -53,6 +53,18 @@ namespace A5
 
 
             #endregion
+
+            #region Q3
+            //3- Write a c# Function that accept 4 parameters from user and
+            //return result of summation and subtracting of two numbers
+            //I don't know which two numbers he means so I will assume that the func should return
+            //the summation of the first two numbers and subtruct the others
+            //int n1 = 3, n2 = 4, n3 = 100, n4 = 50;
+            //(int sum, int sub) = SumSub(n1,n2,n3,n4);
+
+            //Console.WriteLine($"{n1}+{n2}={sum}");
+            //Console.WriteLine($"{n3}-{n4}={sub}");
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -75,6 +87,13 @@ namespace A5
         {
             obj.X += 5; //modifies the data 
             obj = new TrialClass { X = 100 }; //visible otside the func scope
+        }
+
+        static (int, int) SumSub(int n1, int n2 ,int n3 ,int n4)
+        {
+            int sum = n1 + n2;
+            int sub = n3 - n4;
+            return (sum, sub);
         }
     }
 }
