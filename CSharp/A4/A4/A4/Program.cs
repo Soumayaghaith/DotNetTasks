@@ -493,12 +493,36 @@ namespace A4
             //    //I need to think of an algorithm to stop printing the counts of th same number
             //    //if it was printed before
             //        Console.WriteLine($"The frequency of number {arr[i]} is {count}");
-                
+
 
             //}
 
             #endregion
 
+            #region Q23
+            // Write a program in C# Sharp to find maximum and minimum element in an array
+            //int[] arr = { 1, 2, 20, 90, 87, 67, 98 };
+            //int max = -999999, min = 999999;
+            //for (int i=0; i<arr.Length; i++)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //    }
+            //    if (arr[i] <min)
+            //    {
+            //        min = arr[i];
+            //    }
+            //}
+            //Console.WriteLine($"The max is {max} and the min is {min}");
+            #endregion
+
+            #region Q24
+            //Write a program in C# Sharp to find the second largest element in an array.
+
+
+            #endregion
 
         }
     }
