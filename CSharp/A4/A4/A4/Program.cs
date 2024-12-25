@@ -456,8 +456,8 @@ namespace A4
             //        mergedArray[i] = arr1[i];
             //        i++;
             //        j++;
-                    
-                    
+
+
             //    }
             //    else
             //    {
@@ -465,7 +465,7 @@ namespace A4
             //        j++;
             //        mer++;
             //    }
-               
+
 
             //}
             //Array.Sort(mergedArray);
@@ -474,6 +474,29 @@ namespace A4
             //    Console.WriteLine(mergedArray[m]);
 
             //}
+            #endregion
+
+            #region Q22
+            //Write a program in C# Sharp to count the frequency of each element of an array
+            //int[] arr = { 1,1,2,3,4,1,1,4,5,5,5,5,6,6,6,5,6,1,2,4};
+            //int count = 0;
+            //for (int i=0; i< arr.Length; i++)
+            //{
+            //    count = 0;
+            //    for (int j = 0; j < arr.Length; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            count++;
+            //        }
+            //    }
+            //    //I need to think of an algorithm to stop printing the counts of th same number
+            //    //if it was printed before
+            //        Console.WriteLine($"The frequency of number {arr[i]} is {count}");
+                
+
+            //}
+
             #endregion
 
 
