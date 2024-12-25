@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
@@ -438,6 +439,41 @@ namespace A4
             //    sum += arr[i];
             //}
             //Console.WriteLine(sum);
+            #endregion
+
+            #region Q21
+            //Write a program in C# Sharp to merge two arrays of the same size
+            //sorted in ascending order.
+            //int[] arr1 = { 1, 2, 3, 4, 5, };
+            //int[] arr2 = { 10,20, 30, 40, 50, };
+
+            //int[] mergedArray= new int[arr1.Length + arr2.Length];
+            //int i = 0, j = 0,mer=0;
+            //while (i<5 || j<10)
+            //{
+            //    if (i < 5)
+            //    { 
+            //        mergedArray[i] = arr1[i];
+            //        i++;
+            //        j++;
+                    
+                    
+            //    }
+            //    else
+            //    {
+            //        mergedArray[j] = arr2[mer];
+            //        j++;
+            //        mer++;
+            //    }
+               
+
+            //}
+            //Array.Sort(mergedArray);
+            //for(int m=0; m<10; m++)
+            //{
+            //    Console.WriteLine(mergedArray[m]);
+
+            //}
             #endregion
 
 
