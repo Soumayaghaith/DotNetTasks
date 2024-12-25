@@ -520,8 +520,22 @@ namespace A4
 
             #region Q24
             //Write a program in C# Sharp to find the second largest element in an array.
-
-
+            //this is a nice one
+            //int[] arr = { 1, 2, 20, 90, 87, 67, 98 };
+            //int max = -999999,max2= -999999;
+            //foreach (int num in arr)
+            //{
+            //    if (num > max)
+            //    {
+            //        max2 = max;
+            //        max = num;
+            //    }
+            //    else if (num > max2 && num!= max)
+            //    {
+            //        max2 = num;
+            //    }
+            //}
+            //Console.WriteLine($"The second max value is {max2}");
             #endregion
 
         }
