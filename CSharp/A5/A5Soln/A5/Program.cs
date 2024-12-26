@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace A5
@@ -91,6 +92,16 @@ namespace A5
             //(int max, int min)=MinMaxArray(ref arr);
             //Console.WriteLine($"The max is {max}, The min is {min}");
             #endregion
+
+            #region Q7
+            //Create an iterative (non-recursive) function to calculate the factorial
+            //of the number specified as parameter
+            //Console.WriteLine("Please enter a number to specify its factorial");
+            //int.TryParse(Console.ReadLine(), out int num);
+            //int fact = GetFact(num);
+            //Console.WriteLine(fact);
+
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -164,6 +175,19 @@ namespace A5
 
             return (max, min);
 
+        }
+
+        static int GetFact(int num)
+        {
+            int fact = 1;
+            while (num > 0)
+            {
+                fact *= num;
+                num -= 1;
+            }
+
+            return fact;
+        
         }
     }
 }
