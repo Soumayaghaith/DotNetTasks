@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Buffers.Text;
+using System.ComponentModel;
 using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -102,6 +103,18 @@ namespace A5
             //Console.WriteLine(fact);
 
             #endregion
+
+            #region Q8
+            //Create a function named "ChangeChar" to modify a letter in a certain
+            //position(0 based) of a string, replacing it with a different letter
+            //Console.WriteLine("Please enter a string");
+            //string text = Console.ReadLine();
+            //Console.WriteLine("Please enter the index of the letter you want to replace with C letter");
+            //int.TryParse(Console.ReadLine(), out int Index);
+            //ChangeChar(ref text,Index);
+            //Console.WriteLine(text);
+
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -188,6 +201,16 @@ namespace A5
 
             return fact;
         
+        }
+
+        static void ChangeChar(ref string text, int index)
+        {
+            //since strings are immutable, meaning their content cannot be changed directly.
+            // C# does not allow modifying individual characters in a string directly.
+            char[] chars = text.ToCharArray();
+            chars[index] = 'C';
+            text = new string(chars);
+         
         }
     }
 }
