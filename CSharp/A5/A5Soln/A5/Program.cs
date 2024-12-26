@@ -85,6 +85,12 @@ namespace A5
             //bool res = IsPrime(num);
             //Console.WriteLine(res);
             #endregion
+
+            #region Q6
+            //int[] arr = { 1, 2, 3 };
+            //(int max, int min)=MinMaxArray(ref arr);
+            //Console.WriteLine($"The max is {max}, The min is {min}");
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -139,6 +145,25 @@ namespace A5
             }
 
             return flag;
+        }
+
+        static (int, int) MinMaxArray(ref int[]arr)
+        {
+            int max = int.MinValue, min = int.MaxValue;
+            for (int i=0; i<arr.Length; i++)
+            {
+                if (arr[i] > max)
+                { 
+                    max = arr[i];
+                }
+                if (arr[i] < min)
+                { 
+                    min = arr[i];
+                }
+            }
+
+            return (max, min);
+
         }
     }
 }
