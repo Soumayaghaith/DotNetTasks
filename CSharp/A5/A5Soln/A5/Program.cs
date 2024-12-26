@@ -78,6 +78,13 @@ namespace A5
             //Console.WriteLine($"The sum of digits in {num} is {digSum}");
 
             #endregion
+
+            #region Q5
+            //Console.Write("Please enter a number: ");
+            //int.TryParse(Console.ReadLine(),out int num);
+            //bool res = IsPrime(num);
+            //Console.WriteLine(res);
+            #endregion
         }
 
         static void ModifyValue(int X)
@@ -118,6 +125,20 @@ namespace A5
                 num /= 10;
             }
             return sum;
+        }
+
+        static bool IsPrime(int num) 
+        {
+            bool flag = true;
+            for (int i =2; i<num/2; i++)
+            {
+                if (num%i==0 ) 
+                { 
+                    flag = false;
+                }
+            }
+
+            return flag;
         }
     }
 }
