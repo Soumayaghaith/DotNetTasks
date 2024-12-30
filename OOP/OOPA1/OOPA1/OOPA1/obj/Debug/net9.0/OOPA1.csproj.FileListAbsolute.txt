@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\bin\Debug\net9.0\OOPA1.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\bin\Debug\net9.0\OOPA1.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\bin\Debug\net9.0\OOPA1.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\bin\Debug\net9.0\OOPA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\bin\Debug\net9.0\OOPA1.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\refint\OOPA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\OOPA1.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA1\OOPA1\OOPA1\obj\Debug\net9.0\ref\OOPA1.dll
