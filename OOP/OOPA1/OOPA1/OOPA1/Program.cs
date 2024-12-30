@@ -6,6 +6,15 @@ namespace OOPA1
 {
     enum WeekDays{Sat,Sun,Mon,Tue,Wed,Thurs,Fri}
     enum Seasons { Spring, Summer, Autumn, Winter}
+    [Flags] // Allows bitwise operations on the enum
+    enum Permissions
+    {
+        None = 0,        
+        Read = 1,        
+        Write = 2,       
+        Delete = 4,      
+        Execute = 8      
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -49,6 +58,37 @@ namespace OOPA1
             //        break;
             //}
             #endregion
-        }
+
+            #region Q3
+            //3. Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.
+            //● Create Variable from previous Enum to Add and Remove Permission from variable,
+            //check if specific Permission is existed inside variable
+            
+        //    Permissions userPermissions = Permissions.None;
+
+        //    //Adding permissions 
+        //    userPermissions |= Permissions.Read; 
+        //    userPermissions |= Permissions.Write;
+        //    Console.WriteLine($"Permissions after adding Read and Write: {userPermissions}");
+
+        //    //check if specific Permission is existed inside variable
+        //    if ((userPermissions & Permissions.Read) == Permissions.Read)
+        //    {
+        //        Console.WriteLine("Read permission exists.");
+        //    }
+
+            
+        //    userPermissions &= ~Permissions.Read; 
+        //    Console.WriteLine($"Permissions after removing Read: {userPermissions}");
+
+            
+        //    if ((userPermissions & Permissions.Read) != Permissions.Read)
+        //    {
+        //        Console.WriteLine("Read permission does not exist.");
+        //    }
+        //}
+
+        #endregion
     }
-}
+    }
+
