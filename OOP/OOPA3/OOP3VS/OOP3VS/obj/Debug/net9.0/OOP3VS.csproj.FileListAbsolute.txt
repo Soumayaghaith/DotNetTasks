@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\bin\Debug\net9.0\OOP3VS.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\bin\Debug\net9.0\OOP3VS.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\bin\Debug\net9.0\OOP3VS.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\bin\Debug\net9.0\OOP3VS.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\bin\Debug\net9.0\OOP3VS.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\refint\OOP3VS.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\OOP3VS.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA3\OOP3VS\OOP3VS\obj\Debug\net9.0\ref\OOP3VS.dll
