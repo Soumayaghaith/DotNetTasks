@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,12 +43,17 @@ namespace A4
         private void Normalizer()
         {
             Minutes += Seconds / 60;
-            Seconds %=  60;
+            Seconds %= 60;
 
             Hours += Minutes / 60;
             Minutes %= 60;
 
 
+        }
+
+        private int GetTotalSeconds()
+        {
+            return Hours * 3600 + Minutes * 60 + Seconds;
         }
         #endregion
 
@@ -64,7 +70,7 @@ namespace A4
 
         public override string ToString()
         {
-            if (Hours ==0)
+            if (Hours == 0)
             {
                 return $"Minutes: {Minutes}, Seconds: {Seconds}";
             }
@@ -72,7 +78,7 @@ namespace A4
             {
                 return $"Hours: {Hours}, Minutes: {Minutes}, Seconds: {Seconds}";
             }
-            
+
         }
         #endregion
 
@@ -81,14 +87,14 @@ namespace A4
 
         public static Duration operator +(Duration left, Duration right)
         {
-            
+
             return new Duration(left.Hours + right.Hours, left.Minutes + right.Minutes, left.Seconds + right.Seconds);
         }
         //D3=D1 + 7800
         public static Duration operator +(Duration left, int totalSeconds)
         {
 
-            return new Duration(left.Hours , left.Minutes, left.Seconds + totalSeconds);
+            return new Duration(left.Hours, left.Minutes, left.Seconds + totalSeconds);
         }
         //D3=666+D3
         public static Duration operator +(int totalSeconds, Duration right)
@@ -99,7 +105,7 @@ namespace A4
         //D3= ++D1 (Increase One Minute)
         public static Duration operator ++(Duration D)
         {
-            return new Duration(D.Hours, D.Minutes+1 , D.Seconds );
+            return new Duration(D.Hours, D.Minutes + 1, D.Seconds);
         }
         //D3 = --D2 (Decrease One Minute)
         public static Duration operator --(Duration D)
@@ -107,39 +113,14 @@ namespace A4
             return new Duration(D.Hours, D.Minutes - 1, D.Seconds);
         }
         //If (D1>D2)
-        public static bool operator > (Duration left, Duration right)
+        public static bool operator >(Duration left, Duration right)
         {
-
-            if (left?.Hours > right?.Hours)
-            {
-                return left?.Hours > right?.Hours;
-            }
-            else if (left?.Minutes > right?.Minutes)
-            {
-                return left?.Minutes > right?.Minutes;
-            }
-            else if (left?.Seconds > right?.Seconds)
-            {
-                return left?.Seconds > right?.Seconds;
-            }
-            return false;
+            return left.GetTotalSeconds() > right.GetTotalSeconds();
         }
         public static bool operator <(Duration left, Duration right)
         {
 
-            if (left?.Hours < right?.Hours)
-            {
-                return left?.Hours <right?.Hours;
-            }
-            else if (left?.Minutes < right?.Minutes)
-            {
-                return left?.Minutes < right?.Minutes;
-            }
-            else if (left?.Seconds < right?.Seconds)
-            {
-                return left?.Seconds < right?.Seconds;
-            }
-            return false;
+            return left.GetTotalSeconds() < right.GetTotalSeconds();
         }
         //D1= D1 -D2
         public static Duration operator -(Duration left, Duration right)
@@ -147,10 +128,34 @@ namespace A4
 
             return new Duration(left.Hours - right.Hours, left.Minutes - right.Minutes, left.Seconds - right.Seconds);
         }
-        //I still need to understand the requirment
+
         //● If (D1<=D2)
+        public static bool operator <=(Duration left, Duration right)
+        {
+
+            return left.GetTotalSeconds() <= right.GetTotalSeconds();
+        }
+        public static bool operator >=(Duration left, Duration right)
+        {
+
+            return left.GetTotalSeconds() >= right.GetTotalSeconds();
+        }
         //● If (D1)
+        public static bool operator true(Duration D)
+        { 
+            return D.GetTotalSeconds()>0;
+        }
+        public static bool operator false(Duration D)
+        {
+            return D.GetTotalSeconds() == 0;
+        }
+
         //● DateTime Obj = (DateTime) D
+        public static DateTime operator Datetime(Duration D)
+        { 
+            DateTime dateTime = DateTime.Now;
+            return dateTime.AddHours(D.Hours).AddMinutes(D.Minutes).AddSeconds(D.Seconds);
+        }
         #endregion
 
 
