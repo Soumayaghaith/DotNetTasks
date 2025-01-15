@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\bin\Debug\net9.0\A4.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\bin\Debug\net9.0\A4.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\bin\Debug\net9.0\A4.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\bin\Debug\net9.0\A4.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\bin\Debug\net9.0\A4.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\refint\A4.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\A4.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA4\A4\A4\obj\Debug\net9.0\ref\A4.dll
