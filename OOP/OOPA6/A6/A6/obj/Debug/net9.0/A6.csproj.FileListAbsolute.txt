@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\bin\Debug\net9.0\A6.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\bin\Debug\net9.0\A6.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\bin\Debug\net9.0\A6.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\bin\Debug\net9.0\A6.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\bin\Debug\net9.0\A6.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\refint\A6.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\A6.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\OOP\OOPA6\A6\A6\obj\Debug\net9.0\ref\A6.dll
