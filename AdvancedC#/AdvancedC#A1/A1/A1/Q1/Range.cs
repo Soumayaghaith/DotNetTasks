@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,10 +28,14 @@ namespace A1.Q1
         
         }
         //Think about it again
-        //public int Length()
-        //{ 
-        //    return (int)Max - (int)Min;   
-        //}
+        //I searched for it and found that The dynamic keyword allows variables to
+        //bypass compile-time type checking and defer type resolution to runtime.
+        //This is useful when dealing with scenarios where the type is unknown at compile time
+        public dynamic Length() 
+        {
+           
+            return (dynamic)Max -(dynamic) Min ;
+        }
 
     }
 }
