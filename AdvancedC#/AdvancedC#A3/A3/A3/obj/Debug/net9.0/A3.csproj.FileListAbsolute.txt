@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\bin\Debug\net9.0\A3.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\bin\Debug\net9.0\A3.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\bin\Debug\net9.0\A3.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\bin\Debug\net9.0\A3.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\bin\Debug\net9.0\A3.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\refint\A3.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\A3.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\AdvancedC#\AdvancedC#A3\A3\A3\obj\Debug\net9.0\ref\A3.dll
