@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\bin\Debug\net9.0\ExaminationSystem.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\bin\Debug\net9.0\ExaminationSystem.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\bin\Debug\net9.0\ExaminationSystem.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\bin\Debug\net9.0\ExaminationSystem.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\bin\Debug\net9.0\ExaminationSystem.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\refint\ExaminationSystem.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ExaminationSystem.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\Exam\Exam\obj\Debug\net9.0\ref\ExaminationSystem.dll
