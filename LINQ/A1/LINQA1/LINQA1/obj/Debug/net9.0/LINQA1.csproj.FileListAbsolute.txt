@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\bin\Debug\net9.0\LINQA1.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\bin\Debug\net9.0\LINQA1.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\bin\Debug\net9.0\LINQA1.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\bin\Debug\net9.0\LINQA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\bin\Debug\net9.0\LINQA1.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\refint\LINQA1.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\LINQA1.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\LINQ\A1\LINQA1\LINQA1\obj\Debug\net9.0\ref\LINQA1.dll

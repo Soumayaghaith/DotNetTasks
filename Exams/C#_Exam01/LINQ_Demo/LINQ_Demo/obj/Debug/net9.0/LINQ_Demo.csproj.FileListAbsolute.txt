@@ -1,0 +1,15 @@
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\bin\Debug\net9.0\LINQ_Demo.exe
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\bin\Debug\net9.0\LINQ_Demo.deps.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\bin\Debug\net9.0\LINQ_Demo.runtimeconfig.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\bin\Debug\net9.0\LINQ_Demo.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\bin\Debug\net9.0\LINQ_Demo.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.AssemblyInfoInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.AssemblyInfo.cs
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.csproj.CoreCompileInputs.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.sourcelink.json
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\refint\LINQ_Demo.dll
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.pdb
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\LINQ_Demo.genruntimeconfig.cache
+F:\Working\Web_Devlopment\2_Backend\DotNetTasks\Exams\C#_Exam01\LINQ_Demo\LINQ_Demo\obj\Debug\net9.0\ref\LINQ_Demo.dll
