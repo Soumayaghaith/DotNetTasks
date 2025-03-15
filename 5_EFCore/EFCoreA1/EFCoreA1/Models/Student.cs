@@ -20,6 +20,10 @@ namespace EFCoreA1.Models
 
         [Range(25,40)]
         public int Age { get; set; }
+
+        [ForeignKey(nameof(StudentDepartment))]
         public int Dep_Id { get; set; }
+
+        public Department StudentDepartment { get; set; }
     }
 }
