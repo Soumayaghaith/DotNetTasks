@@ -13,8 +13,8 @@ namespace EFCoreA1.Models
         public string Name { get; set; }
 
         [ForeignKey(nameof(DepartmentManager))]
-        public int Ins_Id { get; set; }
-        public DateTime HiringDate { get; set; }
+        public int? Ins_Id { get; set; }
+        public DateOnly HiringDate { get; set; }
         public ICollection<Student> Students { get; set; }
 
         [InverseProperty(nameof(Instructor.InstructorDepartment))]

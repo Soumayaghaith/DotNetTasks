@@ -26,7 +26,7 @@ namespace EFCoreA1.Models
         [InverseProperty(nameof(Department.DepartmentManager))]
         public Department ManagedDeparment { get; set; }
 
-
+        public ICollection<Course_Inst> InstructorCourses { get; set; } = new HashSet<Course_Inst>();
 
 
 

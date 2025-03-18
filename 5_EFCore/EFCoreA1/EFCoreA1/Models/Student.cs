@@ -25,5 +25,8 @@ namespace EFCoreA1.Models
         public int Dep_Id { get; set; }
 
         public Department StudentDepartment { get; set; }
+
+        public ICollection<Stud_Course> StdentCourses { get; set; } = new HashSet<Stud_Course>();
+
     }
 }

@@ -18,5 +18,10 @@ namespace EFCoreA1.Models
         public int TopId { get; set; }
 
         public Topic CourseTopic { get; set; } //I didn't create a navigational property in the topic module as this is one-to-one
+
+        public ICollection<Stud_Course> CourseStdents { get; set; } = new HashSet<Stud_Course>();
+
+        public ICollection<Course_Inst>  CourseInstructors { get; set; } = new HashSet<Course_Inst>();
+
     }
 }
